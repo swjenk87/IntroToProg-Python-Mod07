@@ -15,7 +15,7 @@ Module 07 explored, in more depth, concepts that were touched on briefly in prev
 
 The last major deliverable is the re-formatting of the assignment document into the GitHub markdown language, through the use of a website page. This content will be shared via the discussion board and demonstrates how other programmers and developers store and share information within GitHub. 
 
-![Figure 01](/docs/images/figure01.png)
+![Figure 01](/docs/images/figure01.PNG)
 
 **_Figure 1: The desired result of this assignment_**
 
