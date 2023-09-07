@@ -15,11 +15,11 @@ Module 07 explored, in more depth, concepts that were touched on briefly in prev
 
 The last major deliverable is the re-formatting of the assignment document into the GitHub markdown language, through the use of a website page. This content will be shared via the discussion board and demonstrates how other programmers and developers store and share information within GitHub. 
 
-![Figure 01](/docs/images/figure01.png?raw=true "Figure 01")
+![Figure 01](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure01.png?raw=true "Figure 01")
 
 **_Figure 1: The desired result of this assignment_**
 
-![Figure 02](/docs/images/figure02.png?raw=true "Figure 02")
+![Figure 02](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure02.png?raw=true "Figure 02")
 
 **_Figure 2: Binary Data written to DAT file_**
 
@@ -36,13 +36,13 @@ Up to this point students have focused on writing out data to text files using h
 
 This is where binary data comes in, using “Pickling” in Python. Pickling is a way of serializing and deserializing data, via the “Pickle Module”, which can be loaded into a Python script. These binary protocols not only make moving data around more efficient but contain everything required to reconstruct the data in other places.
 
-![Figure 03](/docs/images/figure03.png?raw=true "Figure 03")
+![Figure 03](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure03.png?raw=true "Figure 03")
 
 **_Figure 3: Importing the Pickle Module_**
 
 The “Pickle Module” contains all the necessary functions to pack and unpack these byte streams like “pickle.dump()” which serializes the object structure and “pickle.load()” which deserializes.  
 
-![Figure 04](/docs/images/figure04.png?raw=true "Figure 04")
+![Figure 04](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure04.png?raw=true "Figure 04")
 
 **_Figure 4: Example of deserializing a Python object structure_**
 
@@ -50,7 +50,7 @@ This binary data can be written to a file, similar to how students write to text
 
 With this in mind users must utilize variations of previous writing, reading and appending commands when writing to these “.dat” files. In the past students were trained to use the “open()” function, then call a file, and then what action should be performed using one single letter: “a” for append, “w” for write, and “r” for read. To ensure the correct file type is used and is being accessed users must now include a “b” to indicated binary. 
 
-![Figure 05](/docs/images/figure05.png?raw=true "Figure 05")
+![Figure 05](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure05.png?raw=true "Figure 05")
 
 **_Figure 5: Reading a binary file_**
 
@@ -71,14 +71,14 @@ With this in mind users must utilize variations of previous writing, reading and
 
 In previous modules students were introduced to the concept of using exceptions to continue execution of code, even when a disruption occurred through “try” and “except”. This week’s assignment dove deeper into raising custom exceptions and utilizing a number of built-in functionalities to ensure that someone who is accessing a program does not encounter an experience-breaking event, like a traceback error, due to an internal script issue or faulty user input that could crash the application. When this occurs in the real world it can lead to a bad user experience and either hurt trust in the program or prevent individuals from utilizing it further. 
 
-![Figure 06](/docs/images/figure06.png?raw=true "Figure 06")
+![Figure 06](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure06.png?raw=true "Figure 06")
 
 **_Figure 6: Traceback error example_**
 
 As defined, an exception is an unexpected event that occurs during program execution, such as dividing by zero. Individuals who have used the built-in calculator in Windows have seen that if they attempt to divide a number by zero, a message will be displayed, letting them know that that operation cannot be completed.
 
 
-![Figure 07](/docs/images/figure07.png?raw=true "Figure 07")
+![Figure 07](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure07.png?raw=true "Figure 07")
 
 **_Figure 7: Microsoft Calculator exception message_**
 
@@ -86,7 +86,7 @@ Errors encountered by users of an application can fall in to two categories, syn
 
 To help handle these issues Python has a number of built-in exceptions that can be raised when encountered, giving default readouts, such as the traceback pictured in Figure 06. There are also ways of avoiding disruption of the event flow, and instead skipping the execution of certain actions and informing the user of the issue through custom messages. This can be done by different statement types, and through “try” and “except” blocks. The basic concept is similar to if/else statements, where the script attempts to execute one block of script, and if it cannot it will move to the exception, where additional statements can be called.
 
-![Figure 08](/docs/images/figure08.png?raw=true "Figure 08")
+![Figure 08](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure08.png?raw=true "Figure 08")
 
 **_Figure 8: Try Except Example to mitigate a zero division error_**
 
@@ -115,7 +115,7 @@ To build these pages GitHub utilizes Jekyll which is a static site generator tha
 
 Using the tools within GitHub users can select themes, use syntax to format pictures, text, headers and more. There are also a number of plugins and addons that can be used to increase the visual fidelity, interactivity and functionality of the site. 
 
-![Figure 09](/docs/images/figure09.png?raw=true "Figure 09")
+![Figure 09](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure09.png?raw=true "Figure 09")
 
 **Figure 9: GitHub Page Formatting Example from official documentation**
 
@@ -137,7 +137,7 @@ Information included with the Header
 - A change log that includes the creation and any revisions to the script
 - _Note: An additional space was added after the number sign to prevent an underlining format error within PyCharm. Though it was not causing any fatal errors it was improperly setup in previous assignments and has been adjusted from this point on._
 
-![Figure 10](/docs/images/figure10.png?raw=true "Figure 10")
+![Figure 10](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure10.png?raw=true "Figure 10")
 
 **_Figure 10: Header, as shipped with the “What is in Your House” script_**
 
@@ -159,7 +159,7 @@ This function reads and saves any existing data from a DAT file if it exists, an
 - Uses a Try/Except block to check for the existence of the data file.
   - Reads from the file if it exists, otherwise writes to create a new file for use.
  
-![Figure 11](/docs/images/figure11.png?raw=true "Figure 11")
+![Figure 11](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure11.png?raw=true "Figure 11")
 
 **_Figure 11: read_data_from_binary Function_**
 
@@ -172,7 +172,7 @@ Gathers the list that has been generated from the user performing math equations
   - equation_list_rows
  - Uses the “wb” keyword to write, overriding the binary file with a new version. This was done consciously to demonstrate the different capabilities of the open function.
 
-![Figure 12](/docs/images/figure12.png?raw=true "Figure 12")
+![Figure 12](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure12.png?raw=true "Figure 12")
 
 **_Figure 12: write_data_to_binary Function_**
 
@@ -185,7 +185,7 @@ Gathers the outcome of the math equation action and saves the result to the ever
   - final_equation
 - Sets the equation as a list item and utilizes the append functionality to add it to the list table.
 
-![Figure 13](/docs/images/figure13.png?raw=true "Figure 13")
+![Figure 13](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure13.png?raw=true "Figure 13")
 
 **_Figure 13: add_equation_list Function_**
 
@@ -202,7 +202,7 @@ Performs a sum operation on two values that are provided by the user and outputs
   - val02_sum
 - Uses the round function to ensure that only up to two decimal places are displayed, keeping the results neater and more organized.
 
-![Figure 14](/docs/images/figure14.png?raw=true "Figure 14")
+![Figure 14](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure14.png?raw=true "Figure 14")
 
 **_Figure 14: numbers_addition Function_**
 
@@ -215,7 +215,7 @@ Performs a difference operation on two values that are provided by the user and 
   - val02_sub
 - Uses the round function to ensure that only up to two decimal places are displayed, keeping the results neater and more organized.
 
-![Figure 15](/docs/images/figure15.png?raw=true "Figure 15")
+![Figure 15](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure15.png?raw=true "Figure 15")
 
 **_Figure 15: numbers_subtraction Function_**
 
@@ -228,7 +228,7 @@ Performs a product operation on two values that are provided by the user and out
   - val02_mult
 - Uses the round function to ensure that only up to two decimal places are displayed, keeping the results neater and more organized.
 
-![Figure 16](/docs/images/figure16.png?raw=true "Figure 16")
+![Figure 16](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure16.png?raw=true "Figure 16")
 
 **_Figure 16: numbers_multiplication Function_**
 
@@ -242,7 +242,7 @@ Performs a quotient operation on two values that are provided by the user and ou
 - Uses the round function to ensure that only up to two decimal places are displayed, keeping the results neater and more organized.
 - Try/Except block to check for division by zero.
 
-![Figure 17](/docs/images/figure17.png?raw=true "Figure 17")
+![Figure 17](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure17.png?raw=true "Figure 17")
 
 **_Figure 17: numbers_division Function_**
 
@@ -256,7 +256,7 @@ Main menu that displays all the functionality options to the user.
 
 - Block print.
 
-![Figure 18](/docs/images/figure18.png?raw=true "Figure 18")
+![Figure 18](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure18.png?raw=true "Figure 18")
 
 **_Figure 18: user_options_menu Function_**
 
@@ -266,7 +266,7 @@ Menu for selection of a math operation to be performed on numbers provided by th
 
 - Block print.
 
-![Figure 19](/docs/images/figure19.png?raw=true "Figure 19")
+![Figure 19](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure19.png?raw=true "Figure 19")
 
 **_Figure 19: math_equation_menu Function_**
 
@@ -276,7 +276,7 @@ Prompts the user to select one of the menu options. This is saved and used in th
 
 - Returns the user’s choice to the main body of the script.
 
-![Figure 20](/docs/images/figure20.png?raw=true "Figure 20")
+![Figure 20](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure20.png?raw=true "Figure 20")
 
 **_Figure 20: input_menu_choice Function_**
 
@@ -286,7 +286,7 @@ Prompts the user to provide two float or integer values to be used in the math e
 
 - Uses try/except to ensure that the input provided by the user is a number.
 
-![Figure 21](/docs/images/figure21.png?raw=true "Figure 21")
+![Figure 21](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure21.png?raw=true "Figure 21")
 
 **_Figure 21: user_value_input Function_**
 
@@ -296,7 +296,7 @@ Prompts the user to select one of the math operation menu options. This is saved
 
 - Returns the user’s choice to the main body of the script.
 
-![Figure 22](/docs/images/figure22.png?raw=true "Figure 22")
+![Figure 22](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure22.png?raw=true "Figure 22")
 
 **_Figure 22: input_math_menu_choice Function_**
 
@@ -307,7 +307,7 @@ If the main application list is not empty it will print each item back to the us
 - Uses if/else to check for contents in the list.
 - Prints the entire length of the list line-by-line.
 
-![Figure 23](/docs/images/figure23.png?raw=true "Figure 23")
+![Figure 23](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure23.png?raw=true "Figure 23")
 
 **_Figure 23: print_recent_equations Function_**
 
@@ -317,7 +317,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Load Data
 
-![Figure 24](/docs/images/figure24.png?raw=true "Figure 24")
+![Figure 24](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure24.png?raw=true "Figure 24")
 
 **_Figure 24: Calls the ability to read from an existing file._**
 
@@ -328,7 +328,7 @@ The main body of the script consists of two nested loops and several if/elif blo
  
 ### Main Menu
 
-![Figure 25](/docs/images/figure25.png?raw=true "Figure 25")
+![Figure 25](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure25.png?raw=true "Figure 25")
 
 **_Figure 25: Menu and user input calls_**
 
@@ -336,7 +336,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Option 1 – Print Recent History List
 
-![Figure 26](/docs/images/figure26.png?raw=true "Figure 26")
+![Figure 26](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure26.png?raw=true "Figure 26")
 
 **_Figure 26: Print Equations_**
 
@@ -344,7 +344,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Option 2 – Math Equation Menu
 
-![Figure 27](/docs/images/figure27.png?raw=true "Figure 27")
+![Figure 27](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure27.png?raw=true "Figure 27")
 
 **_Figure 27: Math Operations Menu_**
 
@@ -352,7 +352,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Math Operations
 
-![Figure 28](/docs/images/figure28.png?raw=true "Figure 28")
+![Figure 28](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure28.png?raw=true "Figure 28")
 
 **_Figure 28: Math Operations selection_**
 
@@ -366,7 +366,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Empty List
 
-![Figure 29](/docs/images/figure29.png?raw=true "Figure 29")
+![Figure 29](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure29.png?raw=true "Figure 29")
 
 **_Figure 29: Clear the global list_**
 
@@ -374,7 +374,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Save to File
 
-![Figure 30](/docs/images/figure30.png?raw=true "Figure 30")
+![Figure 30](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure30.png?raw=true "Figure 30")
 
 **_Figure 30: Write to file_**
 
@@ -382,7 +382,7 @@ The main body of the script consists of two nested loops and several if/elif blo
 
 ### Exit
 
-![Figure 31](/docs/images/figure31.png?raw=true "Figure 31")
+![Figure 31](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure31.png?raw=true "Figure 31")
 
 **_Figure 31: Exit Program_**
 
