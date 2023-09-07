@@ -17,6 +17,8 @@ The last major deliverable is the re-formatting of the assignment document into 
 
 ![Figure 01](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure01.png)
 
+![Figure 01](/docs/images/figure01.png)
+
 **_Figure 1: The desired result of this assignment_**
 
 ![Figure 02](https://github.com/swjenk87/IntroToProg-Python-Mod07/blob/main/docs/images/figure02.png)
